@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "nombre": "Cubanito #1",
+      "descripcion": "Cubanitos rellenos de dulce de leche",
+      "precio": 35, 
+      "imagen": "./imagenes/producto1.png",
+      "seleccionado": false
+      
+  },
+  {
+      "id": 2,
+      "nombre": "Cubanito #2",
+      "descripcion": "Cubanitos bañados en chocolate negro y rellenos de dulce de leche",
+      "precio": 40,
+      "imagen": "./imagenes/producto2.png",
+      "seleccionado": false
+  },
+  {
+      "id": 3,
+      "nombre":"Cubanito #3",
+      "descripcion": "Cubanitos bañados en chocolate blanco y rellenos de dulce de leche",
+      "precio": 40,
+      "imagen": "./imagenes/producto3.jpg",
+      "seleccionado": false
+  },
+  {
+      "id": 4,
+      "nombre":"Cubanito #4",
+      "descripcion": "Cubanitos rellenos de helado",
+      "precio": 45,
+      "imagen": "./imagenes/producto4.jpg",
+      "seleccionado": false
+  },
+  {
+      "id": 5,
+      "nombre":"Cubanito #5",
+      "descripcion": "Cubanitos bañados en chocolate negro y rellenos de helado",
+      "precio": 45,
+      "imagen": "./imagenes/producto5.jpg",
+      "seleccionado": false
+  },
+  
+  {
+      "id": 6,
+      "nombre": "Cubanito #6",
+      "descripcion": "Cubanitos de oreo",
+      "precio": 50,
+      "imagen": "./imagenes/producto6.png",
+      "seleccionado": false
+  }
+]
