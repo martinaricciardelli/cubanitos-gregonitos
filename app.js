@@ -1,6 +1,7 @@
 const cards = document.getElementById('cards')
 const items = document.getElementById('items')
 const footer = document.getElementById('footer')
+const botonWsp = document.getElementById('botonWsp')
 const templateCard = document.getElementById('template-card').content
 const templateFooter = document.getElementById('template-footer').content
 const templateCarrito = document.getElementById('template-carrito').content
@@ -21,6 +22,10 @@ cards.addEventListener('click', e => {
 
 items.addEventListener('click', e => {
     btnAccion(e)
+})
+
+botonWsp.addEventListener('click', e => {
+    window.open("https://api.whatsapp.com/send?phone=1122334455&text=%C2%BFAlguna%20consulta?%20No%20dudes%20en%20preguntarnos!")
 })
 
 const fetchData = async () => {
